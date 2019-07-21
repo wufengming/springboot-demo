@@ -1,0 +1,104 @@
+2019-07-13 15:54:41.136 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Starting SpringbootApplication on WFM with PID 6064 (E:\IJworkspace\springboot3\target\classes started by wfm in E:\IJworkspace\springboot3)
+2019-07-13 15:54:41.141 [restartedMain] INFO  com.example.springboot.SpringbootApplication - The following profiles are active: dev
+2019-07-13 15:54:41.203 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-13 15:54:41.204 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-13 15:54:43.115 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-07-13 15:54:43.126 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-07-13 15:54:43.127 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-13 15:54:43.127 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-13 15:54:43.285 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-13 15:54:43.285 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2081 ms
+2019-07-13 15:54:43.454 [restartedMain] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-07-13 15:54:43.638 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2019-07-13 15:54:43.640 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,slave_1} inited
+2019-07-13 15:54:43.640 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
+2019-07-13 15:54:43.641 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2019-07-13 15:54:43.642 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 slave_1 成功
+2019-07-13 15:54:43.642 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2019-07-13 15:54:44.736 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e23056e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1899320c, org.springframework.security.web.header.HeaderWriterFilter@1b3c50e8, org.springframework.web.filter.CorsFilter@20303bc2, org.springframework.security.web.authentication.logout.LogoutFilter@67d3fdd2, com.example.springboot.config.security.jwt.JWTAuthenticationFilter@14efed66, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@205d81e3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@50d4fa4f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f10c6ab, com.example.springboot.config.security.jwt.JWTAuthorizationFilter@297ea252, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e2994f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f91d67d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8b17294, org.springframework.security.web.session.SessionManagementFilter@5b91e15c, org.springframework.security.web.access.ExceptionTranslationFilter@3ff2659, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c79c043]
+2019-07-13 15:54:44.786 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-13 15:54:45.055 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-13 15:54:45.085 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-07-13 15:54:45.109 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-13 15:54:45.113 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Started SpringbootApplication in 5.196 seconds (JVM running for 7.549)
+2019-07-13 15:55:06.678 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-13 15:55:06.678 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-13 15:55:06.687 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-07-13 15:58:32.228 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Starting SpringbootApplication on WFM with PID 13520 (E:\IJworkspace\springboot3\target\classes started by wfm in E:\IJworkspace\springboot3)
+2019-07-13 15:58:32.231 [restartedMain] INFO  com.example.springboot.SpringbootApplication - The following profiles are active: dev
+2019-07-13 15:58:32.279 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-13 15:58:32.280 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-13 15:58:33.553 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-07-13 15:58:33.562 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-07-13 15:58:33.562 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-13 15:58:33.562 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-13 15:58:33.685 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-13 15:58:33.686 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1406 ms
+2019-07-13 15:58:33.815 [restartedMain] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-07-13 15:58:33.961 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2019-07-13 15:58:33.963 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,slave_1} inited
+2019-07-13 15:58:33.963 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
+2019-07-13 15:58:33.964 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2019-07-13 15:58:33.965 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 slave_1 成功
+2019-07-13 15:58:33.965 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2019-07-13 15:58:34.822 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24b2fc1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b0be37a, org.springframework.security.web.header.HeaderWriterFilter@2858e465, org.springframework.web.filter.CorsFilter@1ebde127, org.springframework.security.web.authentication.logout.LogoutFilter@ef7f232, com.example.springboot.config.security.jwt.JWTAuthenticationFilter@6c4dab38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f90ba31, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56b5328e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@500130fe, com.example.springboot.config.security.jwt.JWTAuthorizationFilter@63e07ce5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5845da4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35f52138, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12251d67, org.springframework.security.web.session.SessionManagementFilter@1e6e9fb7, org.springframework.security.web.access.ExceptionTranslationFilter@5bcec103, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fdf00ca]
+2019-07-13 15:58:34.873 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-13 15:58:35.069 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-13 15:58:35.097 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-07-13 15:58:35.117 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-13 15:58:35.121 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Started SpringbootApplication in 3.851 seconds (JVM running for 5.111)
+2019-07-13 15:59:30.601 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-13 15:59:30.602 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-13 15:59:30.610 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-07-13 16:01:02.564 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Starting SpringbootApplication on WFM with PID 3532 (E:\IJworkspace\springboot3\target\classes started by wfm in E:\IJworkspace\springboot3)
+2019-07-13 16:01:02.567 [restartedMain] INFO  com.example.springboot.SpringbootApplication - The following profiles are active: dev
+2019-07-13 16:01:02.625 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-13 16:01:02.625 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-13 16:01:04.303 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-07-13 16:01:04.312 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-07-13 16:01:04.313 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-13 16:01:04.313 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-13 16:01:04.440 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-13 16:01:04.440 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1815 ms
+2019-07-13 16:01:04.585 [restartedMain] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-07-13 16:01:04.724 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2019-07-13 16:01:04.727 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,slave_1} inited
+2019-07-13 16:01:04.727 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
+2019-07-13 16:01:04.728 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2019-07-13 16:01:04.728 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 slave_1 成功
+2019-07-13 16:01:04.728 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2019-07-13 16:01:05.581 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44119588, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ee4b58, org.springframework.security.web.header.HeaderWriterFilter@785c3d1f, org.springframework.web.filter.CorsFilter@6a6e9fee, org.springframework.security.web.authentication.logout.LogoutFilter@4cbe709d, com.example.springboot.config.security.jwt.JWTAuthenticationFilter@b543bbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c68cc29, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@380334cd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@48b59123, com.example.springboot.config.security.jwt.JWTAuthorizationFilter@c0e068, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@716834d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fa28699, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e4f9e71, org.springframework.security.web.session.SessionManagementFilter@4e36b66a, org.springframework.security.web.access.ExceptionTranslationFilter@44b3bd8c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@503cd50]
+2019-07-13 16:01:05.623 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-13 16:01:05.826 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-13 16:01:05.854 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-07-13 16:01:05.876 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-13 16:01:05.880 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Started SpringbootApplication in 4.014 seconds (JVM running for 5.193)
+2019-07-13 16:01:55.166 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-13 16:01:55.167 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-13 16:01:55.174 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-13 16:03:16.447 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Starting SpringbootApplication on WFM with PID 10184 (E:\IJworkspace\springboot3\target\classes started by wfm in E:\IJworkspace\springboot3)
+2019-07-13 16:03:16.460 [restartedMain] INFO  com.example.springboot.SpringbootApplication - The following profiles are active: dev
+2019-07-13 16:03:16.525 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-13 16:03:16.525 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-13 16:03:17.827 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-07-13 16:03:17.835 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-07-13 16:03:17.836 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-13 16:03:17.836 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-13 16:03:17.961 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-13 16:03:17.962 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1437 ms
+2019-07-13 16:03:18.092 [restartedMain] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-07-13 16:03:18.234 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2019-07-13 16:03:18.237 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,slave_1} inited
+2019-07-13 16:03:18.237 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
+2019-07-13 16:03:18.238 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2019-07-13 16:03:18.239 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 slave_1 成功
+2019-07-13 16:03:18.239 [restartedMain] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2019-07-13 16:03:19.094 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1082a84a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5aa0f8a4, org.springframework.security.web.header.HeaderWriterFilter@1b2dee0d, org.springframework.web.filter.CorsFilter@6e491573, org.springframework.security.web.authentication.logout.LogoutFilter@d677d4, com.example.springboot.config.security.jwt.JWTAuthenticationFilter@147657e1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@42fbac74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4305a35, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67194559, com.example.springboot.config.security.jwt.JWTAuthorizationFilter@62dc6108, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e443beb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6286991b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@449812ad, org.springframework.security.web.session.SessionManagementFilter@6c11f6d4, org.springframework.security.web.access.ExceptionTranslationFilter@10fa56d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35a6e6b7]
+2019-07-13 16:03:19.136 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-13 16:03:19.341 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-13 16:03:19.368 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-07-13 16:03:19.390 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-13 16:03:19.394 [restartedMain] INFO  com.example.springboot.SpringbootApplication - Started SpringbootApplication in 3.834 seconds (JVM running for 4.956)
+2019-07-13 16:06:26.422 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-13 16:06:26.423 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-13 16:06:26.430 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms

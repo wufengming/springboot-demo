@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.mapper.sys.UserlogonMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.springboot.entity.sys.Userlogon">
+        <id column="id" property="id" />
+        <result column="userid" property="userid" />
+        <result column="useraccount" property="useraccount" />
+        <result column="userpassword" property="userpassword" />
+        <result column="usersecretkey" property="usersecretkey" />
+        <result column="allowstarttime" property="allowstarttime" />
+        <result column="allowendtime" property="allowendtime" />
+        <result column="lockstartdate" property="lockstartdate" />
+        <result column="lockenddate" property="lockenddate" />
+        <result column="firstvisittime" property="firstvisittime" />
+        <result column="previousvisittime" property="previousvisittime" />
+        <result column="lastvisittime" property="lastvisittime" />
+        <result column="changepassworddate" property="changepassworddate" />
+        <result column="multiuserlogin" property="multiuserlogin" />
+        <result column="logoncount" property="logoncount" />
+        <result column="useronline" property="useronline" />
+        <result column="question" property="question" />
+        <result column="answerquestion" property="answerquestion" />
+        <result column="checkipaddress" property="checkipaddress" />
+        <result column="language" property="language" />
+        <result column="theme" property="theme" />
+        <result column="creator" property="creator" />
+        <result column="creatortime" property="creatortime" />
+        <result column="modifyuserid" property="modifyuserid" />
+        <result column="modifytime" property="modifytime" />
+        <result column="curorgid" property="curorgid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, userid,useraccount, userpassword, usersecretkey, allowstarttime, allowendtime, lockstartdate, lockenddate, firstvisittime, previousvisittime, lastvisittime, changepassworddate, multiuserlogin, logoncount, useronline, question, answerquestion, checkipaddress, language, theme, creator, creatortime, modifyuserid, modifytime, curorgid
+    </sql>
+
+</mapper>

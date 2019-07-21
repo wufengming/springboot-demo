@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.mapper.sys.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.springboot.entity.sys.User">
+        <id column="id" property="id" />
+        <result column="account" property="account" />
+        <result column="realname" property="realname" />
+        <result column="nickname" property="nickname" />
+        <result column="headicon" property="headicon" />
+        <result column="gender" property="gender" />
+        <result column="birthday" property="birthday" />
+        <result column="mobilephone" property="mobilephone" />
+        <result column="email" property="email" />
+        <result column="wechat" property="wechat" />
+        <result column="securitylevel" property="securitylevel" />
+        <result column="signature" property="signature" />
+        <result column="organizeid" property="organizeid" />
+        <result column="departmentid" property="departmentid" />
+        <result column="dutyid" property="dutyid" />
+        <result column="isadministrator" property="isadministrator" />
+        <result column="sortcode" property="sortcode" />
+        <result column="deletemark" property="deletemark" />
+        <result column="enabledmark" property="enabledmark" />
+        <result column="description" property="description" />
+        <result column="creator" property="creator" />
+        <result column="creatortime" property="creatortime" />
+        <result column="modifyuserid" property="modifyuserid" />
+        <result column="modifytime" property="modifytime" />
+        <result column="curorgid" property="curorgid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, account, realname, nickname, headicon, gender, birthday, mobilephone, email, wechat, securitylevel, signature, organizeid, departmentid, dutyid, isadministrator, sortcode, deletemark, enabledmark, description, creator, creatortime, modifyuserid, modifytime, curorgid
+    </sql>
+
+    <select id="findUsers" resultType="com.example.springboot.entity.sys.User" databaseId="oracle">
+		select * from "sys_user";
+    </select>
+
+    <select id="findUsers" resultType="com.example.springboot.entity.sys.User" databaseId="mysql">
+		select * from sys_user;
+    </select>
+</mapper>
