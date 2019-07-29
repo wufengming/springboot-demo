@@ -29,3 +29,6 @@ build/
 
 ### VS Code ###
 .vscode/
+log-info-2019-07-21.0.log
+.DS_Store
+Dockerfile
